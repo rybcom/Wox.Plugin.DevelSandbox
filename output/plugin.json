@@ -1,0 +1,12 @@
+{
+    "ID":"C2A6E0B5BC5A458B864A437E84F8C11D",
+    "ActionKeyword":"sandbox",
+    "Name":"Sandbox environment",
+    "Description":"Sandbox for development testing",
+    "Author":"rybcom",
+    "Version":"1.0.0",
+    "Language":"csharp",
+    "Website":"http://www.getwox.com/plugin",
+    "ExecuteFileName":"Wox.Plugin.DevelSandbox.dll",
+    "IcoPath":"Images\\sandbox.png"
+}

@@ -1,0 +1,31 @@
+events:
+  subscriptions:
+    # example event consumer that prints a message to the system log if the printer is disconnected
+    - event: Disconnected
+      command: "logger 'Printer got disconnected'"
+      type: system
+
+    # example event consumer that queries printer information from the firmware, prints a "Connected"
+    # message to the LCD and homes the print head upon established printer connection, disabled though
+    - event: Connected
+      command: M115,M117 printer connected!,G28
+      type: gcode
+      enabled: False
+
+feature:
+
+  # Whether to enable the gcode viewer in the UI or not
+  gCodeVisualizer: true
+
+  # Whether to enable the temperature graph in the UI or not
+  temperatureGraph: true
+
+  # Specifies whether support for SD printing and file management should be enabled
+  sdSupport: true
+
+  # Whether to enable the keyboard control feature in the control tab
+  keyboardControl: true
+
+  # Whether to actively poll the watched folder (true) or to rely on the OS's file system
+  # notifications instead (false)
+  pollWatched: false

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project_list>
+
+	<project 
+		name="c++ 17 project" 
+		language="c++" 
+ 		image="Images\cplusplus.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c++\cpp_test_project" 
+		file_to_open="cpp_test_project.sln"
+		descrpition="base cpp 17 project" />
+
+	<project 
+		name="c++ 17 project type 2" 
+		language="c++" 
+ 		path="||etc||\wox_plugins\devel_sandbox\c++\cpp_test_project_2" 
+ 		file_to_open="cpp_test_project_2.sln"
+		descrpition="base cpp 17 type 2" />
+
+	<project 
+		name="c++ 20 test project" 
+		language="c++" 
+ 		image="Images\cplusplus.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c++\cpp_20_test_project" 
+ 		file_to_open="cpp_20_test_project.sln"
+		descrpition="base cpp 20" />	
+
+	<project 
+		name="c++ modular project template - premake" 
+		language="c++" 
+ 		image="Images\cplusplus.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c++\cpp_modular_template" 
+ 		file_to_open="solution.sln"
+ 		pre_open_command="||mroot||\test\cpp_modular_template\scripts\generate_solution.bat"
+		descrpition="c++ project template with libs" />
+
+	<project 
+		name="c# 6.0 console app"
+		language="c++" 
+ 		image="Images\dotnet.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c#\\csharp6.0_console_app" 
+ 		file_to_open="solution.sln"
+		descrpition="c# testing project" />
+
+	<project 
+		name="c# 4.7 console app" 
+		language="c++" 
+ 		image="Images\csharp.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c#\csharp_test_project" 
+ 		file_to_open="csharp_test_project.sln"
+		descrpition="c# testing project" />
+
+	<project 
+		name="c# wpf 4.7" 
+		language="c#" 
+ 		image="Images\csharp.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c#\wpf_test_app" 
+ 		file_to_open="wpf_test_app.sln"
+		descrpition="wpf testing project" />
+
+	<project 
+		name="dotnet-core console" 
+		language="c#" 
+ 		image="Images\dotnet.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c#\dotnet_core_console" 
+ 		file_to_open="dotnet_core_console.sln"
+		descrpition="dotnetcore console application" />
+
+	<project 
+		name="dotnet-core wpf" 
+		language="c#" 
+ 		image="Images\dotnet.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\c#\dotnet_core_wpf" 
+ 		file_to_open="dotnet_core_wpf.sln"
+		descrpition="dotnet core wpf desktop application" />
+
+	<project 
+		name="python test vscode" 
+		language="python" 
+ 		image="Images\python.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\python\python_test_vscode" 
+ 		file_to_open="python_test_vscode.code-workspace"
+		descrpition="python testing vscode project" />
+
+	<project 
+		name="python test project" 
+		language="python" 
+ 		image="Images\python.png"
+ 		path="||etc||\wox_plugins\devel_sandbox\python\python_test_project" 
+ 		file_to_open="python_test_project.sln"
+		descrpition="python testing project" />
+
+	<project 
+		name="xml testing file" 
+		language="xml" 
+ 		path="||etc||\wox_plugins\devel_sandbox\files\xml" 
+ 		file_to_open="new_file.xml"
+		descrpition="testing xml file" />
+
+	<project 
+		name="json testing file" 
+		language="json" 
+		path="||etc||\wox_plugins\devel_sandbox\files\json" 
+		file_to_open="new_file.json"
+		descrpition="testing json file" />
+
+	<project 
+		name="html testing file" 
+		language="html" 
+		path="||etc||\wox_plugins\devel_sandbox\files\html" 
+		file_to_open="new_file.html"
+		descrpition="testing html file" />
+
+	<project 
+		name="yaml testing file" 
+		language="yaml" 
+		path="||etc||\wox_plugins\devel_sandbox\files\yaml" 
+		file_to_open="new_file.yml"
+		descrpition="testing yaml file" />
+
+	<project 
+		name="toml testing file" 
+		language="toml" 
+		path="||etc||\wox_plugins\devel_sandbox\files\toml" 
+		file_to_open="new_file.toml"
+		descrpition="testing toml file" />
+
+	<project 
+		name="hjson testing file" 
+		language="hjson" 
+		path="||etc||\wox_plugins\devel_sandbox\files\hjson" 
+		file_to_open="new_file.hjson"
+		descrpition="testing yaml file" />
+
+</project_list>
